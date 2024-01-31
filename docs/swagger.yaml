@@ -1,0 +1,11 @@
+basePath: /Vehicle
+info:
+  contact: {}
+  version: "1"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
